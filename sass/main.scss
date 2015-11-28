@@ -153,6 +153,30 @@ header{
   }
 }
 
+// Nav Styling 
+.nav-menu {
+  border-bottom: 1px solid $borderColor;
+  background-color: white;
+
+  nav ul {
+    display: inline-block;
+  }
+
+  li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 12px; 
+    padding: 5px;
+
+    a {
+      text-decoration: none;
+      font-size: 12px;
+      color: black;
+    }
+  }
+}
+
 //Aside item styling 
 
 h3 {
@@ -293,66 +317,55 @@ h3 {
           outline: none;
         }
       }
-
-      //Color Filter Styling
-      // .color {
-      //   display: inline-block;
-      //   height: 21px;
-      //   width: 21px;
-      //   border: 1px solid #E1E4DF;
-      //   padding-bottom: 20px;
-      //   margin-left: 12px;
-      //   margin-right: 12px;
-      //   border-bottom: solid 1px $borderColor;
-
-      //   h2 {
-      //     font-family: Arial, sans-serif;
-      //     font-size: 13px;
-      //   }
-      //   div {
-      //     .color-one{
-      //       background-color: $filterColorRed;
-      //     }
-      //   }
-      
-
-        // .two{
-        //   background-color: $filterColorOrange;
-        // }
-
-        // .three{
-        //   background-color: $filterColorYellow;
-        // }
-
-        // .four{
-        //   background-color: $filterColorGreen;
-        // }
-
-        // .five{
-        //   background-color: $filterColorBlue;
-        // }
-
-        // .six{
-        //   background-color: $filterColorPurple;
-        // }
-
-        // .seven{
-        //   background-color:$filterColorBlack;
-        // }
-
-        // .eight{
-        //   background-color:$filterColorWhite;
-        // } 
-
-      // }
-
-
     }
-  }
+    // Color Filter Styling
+     .color-filter ul {
+        padding-left: 0;
+      }
 
+      .color-filter li {
+        width: 22px;
+        height: 22px;
+        border: 1px solid $borderColor;
+        border-radius: 4px;
+        list-style: none;
+        display: inline-block;
+      }
+      .red {
+        background-color: $filterColorRed;
+      }
 
+      .orange {
+        background-color: $filterColorOrange;
+      }
+
+      .yellow {
+        background-color: $filterColorYellow;
+      }
+
+      .green {
+        background-color: $filterColorGreen;
+      }
+
+      .blue {
+        background-color: $filterColorBlue
+      }
+
+      .purple {
+        background-color: $filterColorPurple;
+      }
+
+      .black {
+        background-color: $filterColorBlack;
+      }
+
+      .white {
+        background-color: $filterColorWhite;
+      }
+  
+    }
+  }      
 }
-
 
 
 
