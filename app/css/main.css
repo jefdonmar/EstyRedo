@@ -90,4 +90,103 @@ header {
     margin-right: -22px;
     border-left: 1px solid #eeeeee; }
 
+h3 {
+  text-align: left;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  margin-left: 190px;
+  margin-top: 18px;
+  margin-bottom: -10px; }
+
+.smallBox {
+  width: 100%;
+  margin: 0 auto; }
+  .smallBox aside {
+    width: 25%;
+    float: left;
+    margin-left: 188px;
+    margin-top: -42px;
+    margin-right: -186px; }
+    .smallBox aside h5 {
+      margin-bottom: -5px;
+      margin-left: 15px;
+      margin-top: 15px;
+      font-family: Arial, sans-serif; }
+    .smallBox aside .topAside {
+      width: 246px;
+      height: 409px;
+      border: 1px solid #E1E4DF;
+      border-radius: 4px;
+      margin-top: 58px;
+      background: white; }
+      .smallBox aside .topAside .list1 {
+        list-style-type: none; }
+        .smallBox aside .topAside .list1 .listOne {
+          list-style-type: none;
+          padding-bottom: 9px;
+          margin-left: -15px;
+          color: #0094B8;
+          font-size: 12px;
+          font-weight: normal; }
+      .smallBox aside .topAside li:hover {
+        text-decoration: underline; }
+    .smallBox aside h4 {
+      font-size: 13.5px;
+      margin-top: 30px;
+      margin-bottom: 12px; }
+    .smallBox aside .bottomAside {
+      width: 246px;
+      height: 656px;
+      border: 1px solid #E1E4DF;
+      border-radius: 4px;
+      background: white; }
+      .smallBox aside .bottomAside h6 {
+        margin-top: 15px;
+        margin-left: 20px; }
+      .smallBox aside .bottomAside .radios {
+        display: inline-block;
+        margin-left: 12px;
+        margin-right: 12px;
+        width: 220px;
+        border-bottom: 1px solid #E0E5DF;
+        margin-top: -30px; }
+      .smallBox aside .bottomAside .list2 {
+        list-style-type: none; }
+        .smallBox aside .bottomAside .list2 .listTwo {
+          line-height: 4px; }
+      .smallBox aside .bottomAside .price {
+        padding-bottom: 20px;
+        margin-left: 12px;
+        margin-right: 12px;
+        border-bottom: solid 1px #E0E5DF; }
+        .smallBox aside .bottomAside .price .low {
+          width: 75px;
+          height: 40px;
+          border-radius: 4px;
+          border-style: none;
+          border: 1px solid #D9D9D9; }
+        .smallBox aside .bottomAside .price .high {
+          width: 75px;
+          height: 40px;
+          margin-left: 2px;
+          border-radius: 4px;
+          border-style: none;
+          border: 1px solid #D9D9D9; }
+        .smallBox aside .bottomAside .price .titlePrice {
+          text-align: left;
+          font-family: Arial, sans-serif;
+          font-size: 13px;
+          margin-left: 8px;
+          margin-top: 15px;
+          margin-bottom: 12px; }
+        .smallBox aside .bottomAside .price .triBox {
+          width: 39px;
+          height: 40px;
+          border: 1px solid #D9D9D9;
+          display: inline-block;
+          margin-bottom: -14px;
+          border-radius: 4px; }
+        .smallBox aside .bottomAside .price input[type="text"]:focus {
+          outline: none; }
+
 /*# sourceMappingURL=main.css.map */

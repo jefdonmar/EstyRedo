@@ -153,6 +153,207 @@ header{
   }
 }
 
+//Aside item styling 
+
+h3 {
+  text-align: left;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  margin-left: 190px;
+  margin-top: 18px;
+  margin-bottom: -10px;
+}
+
+.smallBox { 
+  width: 100%;
+  margin: 0 auto;
+
+  aside {
+    width: 25%;
+    float: left;
+    margin-left: 188px;
+    margin-top: -42px;
+    margin-right: -186px;
+
+    h5 {
+      margin-bottom: -5px;
+      margin-left: 15px;
+      margin-top: 15px;
+      font-family: $mainFont;
+    }
+
+    // All Categories Styling
+
+    .topAside {
+      width: 246px;
+      height: 409px;
+      border: 1px solid #E1E4DF;
+      border-radius: 4px;
+      margin-top: 58px;
+      background:white;
+
+      .list1 {
+        list-style-type: none;
+
+        .listOne {
+          list-style-type: none;
+          padding-bottom: 9px;
+          margin-left: -15px;
+          color: #0094B8;
+          font-size: 12px;
+          font-weight: normal;
+        }
+      }
+      li:hover {
+        text-decoration: underline;
+      }
+    }
+
+    h4 {
+      font-size: 13.5px;
+      margin-top: 30px;
+      margin-bottom: 12px;
+    }
+
+    // Refine your search styling 
+
+    .bottomAside {
+      width: 246px;
+      height: 656px;
+      border: 1px solid #E1E4DF;
+      border-radius: 4px;
+      background: white;
+
+      h6 {
+        margin-top: 15px;
+        margin-left: 20px;
+      }
+
+      .radios {
+        display: inline-block;
+        margin-left: 12px;
+        margin-right: 12px;
+        width: 220px;
+        border-bottom: 1px solid #E0E5DF;
+        margin-top: -30px;
+      }
+
+      .list2 {
+        list-style-type: none;
+
+        .listTwo{
+        line-height: 4px;
+        }
+      }
+
+      //Price Styling 
+
+      .price{
+        padding-bottom: 20px;
+        margin-left: 12px;
+        margin-right: 12px;
+        border-bottom: solid 1px #E0E5DF;
+
+        .low {
+          width: 75px;
+          height: 40px;
+          border-radius: 4px;
+          border-style: none;
+          border: 1px solid #D9D9D9;
+        }
+
+        .high{
+          width: 75px;
+          height: 40px;
+          margin-left: 2px;
+          border-radius: 4px;
+          border-style: none;
+          border: 1px solid #D9D9D9;
+        }
+
+        .titlePrice{
+          text-align: left;
+          font-family: Arial, sans-serif;
+          font-size: 13px;
+          margin-left: 8px;
+          margin-top: 15px;
+          margin-bottom: 12px;
+        }
+
+        .triBox {
+          width: 39px;
+          height: 40px;
+          border: 1px solid #D9D9D9;
+          display: inline-block;
+          margin-bottom: -14px;
+          border-radius: 4px;
+        }
+
+        input[type="text"]:focus {
+          outline: none;
+        }
+      }
+
+      //Color Filter Styling
+      // .color {
+      //   display: inline-block;
+      //   height: 21px;
+      //   width: 21px;
+      //   border: 1px solid #E1E4DF;
+      //   padding-bottom: 20px;
+      //   margin-left: 12px;
+      //   margin-right: 12px;
+      //   border-bottom: solid 1px $borderColor;
+
+      //   h2 {
+      //     font-family: Arial, sans-serif;
+      //     font-size: 13px;
+      //   }
+      //   div {
+      //     .color-one{
+      //       background-color: $filterColorRed;
+      //     }
+      //   }
+      
+
+        // .two{
+        //   background-color: $filterColorOrange;
+        // }
+
+        // .three{
+        //   background-color: $filterColorYellow;
+        // }
+
+        // .four{
+        //   background-color: $filterColorGreen;
+        // }
+
+        // .five{
+        //   background-color: $filterColorBlue;
+        // }
+
+        // .six{
+        //   background-color: $filterColorPurple;
+        // }
+
+        // .seven{
+        //   background-color:$filterColorBlack;
+        // }
+
+        // .eight{
+        //   background-color:$filterColorWhite;
+        // } 
+
+      // }
+
+
+    }
+  }
+
+
+}
+
+
 
 
 
