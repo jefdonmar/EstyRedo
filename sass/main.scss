@@ -1,6 +1,162 @@
-// Put any @imports here
-// See Readme for a list of supported ones
+@import 'bourbon';
+@import 'neat';
+
+// text colors
+$pageColor: #F5F5F1; //page color
+$logoColor: #FF3800; //etsy logo color
+$searchColor: #36A9C4; //search bar color
+$blueTextColor: #0094B8; //all blue text color
+$blackTextColor: #555555; //all black text color
+
+// Filter Colors
+$filterColorRed: #FF0002;
+$filterColorOrange: #FF7100;
+$filterColorYellow: #F6D000;
+$filterColorGreen: #00CF08;
+$filterColorBlue: #00D0F7;
+$filterColorPurple: #BC00F5;
+$filterColorBlack: #000000;
+$filterColorWhite: #FFFFFF;
+$borderColor: #E0E5DF;
+
+// fonts
+$mainFont: Arial,sans-serif;
 
 body {
-  background: #e2ebf3;
+  background: $pageColor;
 }
+
+// header styling
+
+header{
+  height: 82px;
+  background: white;
+
+  .leftSide{
+    float: left;
+    margin-bottom: 15px;
+
+    .etsimg{
+    float: left;
+    height: 50px;
+    margin-top: 10px;
+    display: inline-block;
+    }
+
+    .leftSideRight {
+      float: left;
+      margin-left: 70px;
+      margin-top: -42px;
+
+      .searchInp{
+        border: solid 1px #D0CBC8;
+        border-radius-left: 4px;
+        height: 35px;
+        width: 253px;
+        border-bottom-left-radius: 4px;
+        border-top-left-radius: 4px;
+      }
+
+      .bro{
+        text-decoration: none;
+
+        .browse{
+          padding: 7px;
+          border: 1px solid $borderColor;
+          border-radius: 4px;
+
+          .browse:hover{
+            border: 1px solid black;
+          }
+        }
+      }
+    }
+  } 
+
+  button{
+    margin-left: -4px;
+    height: 35px;
+    width: 80px;
+    font: $mainFont;
+    text-align: center;
+    background-color: #00ABC7;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: white;
+    font-weight: bold;
+    decoration: none;
+  }
+
+  button:hover{
+    background-color: #00B3CC;
+    opacity: 0.1;
+  }
+
+  .rightSide{
+    float: right;
+    margin-right: 40px;
+    margin-top: 25px;
+    display: inline-block;
+
+    .regRight {
+      float: right;
+      margin-left: 30px;
+      margin-top: 10px;
+
+      .reg {
+      font-family: $mainFont;
+      color: $blueTextColor;
+      margin-right: 15px;
+      position: relative;
+      }
+
+      .reg:hover{
+        text-decoration: underline;
+      }
+
+      .signIn {
+        font-family: $mainFont;
+        color: $blueTextColor;
+        margin-left: 0px;
+        margin-right: 60px;
+        padding: 10px;
+        border: 1px solid #0094B8;
+        border-radius: 4px;
+      }
+
+      .signIn:hover {
+        background-color: #EEFCFE;
+      }
+    }
+
+    .cartWords {
+      float: right;
+      margin-right: 5px;
+    }
+
+  }
+
+  .cartPic {
+    float: right;
+  }
+
+  // .imgetsy {
+  //   margin-top: 10px;
+  // }
+
+  .cart{
+    height: 20px;
+    float: right;
+    margin-top: -28px;
+    margin-right: -22px;
+    border-left: 1px solid #eeeeee;
+  }
+}
+
+
+
+
+
+
+
+

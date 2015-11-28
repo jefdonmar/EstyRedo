@@ -1,4 +1,93 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
 body {
-  background: #e2ebf3; }
+  background: #F5F5F1; }
+
+header {
+  height: 82px;
+  background: white; }
+  header .leftSide {
+    float: left;
+    margin-bottom: 15px; }
+    header .leftSide .etsimg {
+      float: left;
+      height: 50px;
+      margin-top: 10px;
+      display: inline-block; }
+    header .leftSide .leftSideRight {
+      float: left;
+      margin-left: 70px;
+      margin-top: -42px; }
+      header .leftSide .leftSideRight .searchInp {
+        border: solid 1px #D0CBC8;
+        border-radius-left: 4px;
+        height: 35px;
+        width: 253px;
+        border-bottom-left-radius: 4px;
+        border-top-left-radius: 4px; }
+      header .leftSide .leftSideRight .bro {
+        text-decoration: none; }
+        header .leftSide .leftSideRight .bro .browse {
+          padding: 7px;
+          border: 1px solid #E0E5DF;
+          border-radius: 4px; }
+          header .leftSide .leftSideRight .bro .browse .browse:hover {
+            border: 1px solid black; }
+  header button {
+    margin-left: -4px;
+    height: 35px;
+    width: 80px;
+    font: Arial, sans-serif;
+    text-align: center;
+    background-color: #00ABC7;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: white;
+    font-weight: bold;
+    decoration: none; }
+  header button:hover {
+    background-color: #00B3CC;
+    opacity: 0.1; }
+  header .rightSide {
+    float: right;
+    margin-right: 40px;
+    margin-top: 25px;
+    display: inline-block; }
+    header .rightSide .regRight {
+      float: right;
+      margin-left: 30px;
+      margin-top: 10px; }
+      header .rightSide .regRight .reg {
+        font-family: Arial, sans-serif;
+        color: #0094B8;
+        margin-right: 15px;
+        position: relative; }
+      header .rightSide .regRight .reg:hover {
+        text-decoration: underline; }
+      header .rightSide .regRight .signIn {
+        font-family: Arial, sans-serif;
+        color: #0094B8;
+        margin-left: 0px;
+        margin-right: 60px;
+        padding: 10px;
+        border: 1px solid #0094B8;
+        border-radius: 4px; }
+      header .rightSide .regRight .signIn:hover {
+        background-color: #EEFCFE; }
+    header .rightSide .cartWords {
+      float: right;
+      margin-right: 5px; }
+  header .cartPic {
+    float: right; }
+  header .cart {
+    height: 20px;
+    float: right;
+    margin-top: -28px;
+    margin-right: -22px;
+    border-left: 1px solid #eeeeee; }
 
 /*# sourceMappingURL=main.css.map */
