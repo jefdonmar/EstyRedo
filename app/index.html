@@ -164,9 +164,9 @@
     </aside>
 
     <div class="results-area">
-      <script type="text/javascript" id="itemTemplate">
-         <div class="item-display">
-          <a href="<%= url %>"><img src=<%= Images[0].url_170x135 %>></a>
+      <script type="text/template" id="itemTemplate">
+        <div class="item-display">
+          <a href="<%= url %>"><img src="<%= Images[0].url_170x135 %>"></a>
           <div class="title"><a href="<%= url %>"><%= title %></a></div>
           <div class="seller"><a href="<%= Shop.url %>"><%= Shop.shop_name %></a></div>
           <div class="the-price"><span>$</span><%= price %></div>
@@ -178,7 +178,7 @@
   </div>
 
   
-  <script src="js/etsy.js"></script>
+  // <script src="js/etsy.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
