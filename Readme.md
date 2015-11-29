@@ -1,7 +1,13 @@
-## Welcome to My Project
+## Etsy Redo Project
 
-> I am your Readme.md file, you should probably update me.
+In this repository we were charged do a redo of an Etsy search page. 
 
+Here is the link to my deployment:
+
+Hope you Enjoy! 
+
+
+_________-
 
 ## Usage
 
