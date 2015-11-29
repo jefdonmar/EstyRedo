@@ -15,7 +15,19 @@ var _moment = require('moment');
 
 var _moment2 = _interopRequireDefault(_moment);
 
-console.log('Hello, World');
+(function () {
+
+  var templateString = (0, _jquery2['default'])('#itemTemplate').text();
+
+  var renderTemplate = _underscore2['default'].template(templateString);
+
+  // bring up items I want
+
+  _underscore2['default'].each(etsy.results, function (item) {
+    var itemInfo = renderTemplate(item);
+    (0, _jquery2['default'])('.results-area').append(itemInfo);
+  });
+})();
 
 },{"jquery":2,"moment":3,"underscore":4}],2:[function(require,module,exports){
 /*!

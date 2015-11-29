@@ -53,114 +53,135 @@
       </nav>
     </div>
 
-    <h3 class="topSearch">Show results for:</h3>
-
-    <div class="smallBox">
-      <aside>
-      <!-- Top Aside Collection -->
-        <div class="topAside">
-          <h5>All Categories</h5>
-          <ul class="list1">
-            <li class="listOne">Home &amp; Living</li>
-            <li class="listOne">Art &amp; Collectibles</li>
-            <li class="listOne">Weddings</li>
-            <li class="listOne">Clothing</li>
-            <li class="listOne">Jewelry</li>
-            <li class="listOne">Paper &amp; Party Supplies</li>
-            <li class="listOne">Accessories</li>
-            <li class="listOne">Craft Supplies &amp; Tools</li>
-            <li class="listOne">Bags &amp; Purses</li>
-            <li class="listOne">Bath &amp; Beauty</li>
-            <li class="listOne">Shoes</li>
-            <li class="listOne">Books, Movies, &amp; Music</li>
-            <li class="listOne">Electronics &amp; Accessories</li>
-            <li class="listOne">Toys &amp; Games</li>
-            <li class="listOne">Pet Supplies</li>
-          </ul>
-        </div>
-        <h4 class="refyo">Refine your search:</h4>
-      <!-- Bottom Aside Collection -->
-        <div class="bottomAside">
-          <h6 class="itType">Item Type</h6>
-          <div class="radios">
-            <ul class="list2">
-              <li class="listTwo"><input type="radio"> <span> All Items</span></li>
-              <li class="listTwo"><input type="radio"> <span>Handmade</span></li>
-              <li class="listTwo"><input type="radio"> <span>Vintage</span></li>
-            </ul>
-          </div>
-          <br>
-          <div class="price">
-            <h4 class="titlePrice">Price</h4>
-            <input class="low" type="text" placeholder="$ Low"/>
-            <span>to</span>
-            <input class="high" type="text" placeholder="$ High">
-          </div>
-
-        <!-- Color Filter -->
-          <section class="color-filter">
-            Filter by Color
-            <ul>
-              <li class="red"></li>
-              <li class="orange"></li>
-              <li class="yellow"></li>
-              <li class="green"></li>
-              <li class="blue"></li>
-              <li class="purple"></li>
-              <li class="black"></li>
-              <li class="white"></li>
-            </ul>
-          </section>
-
-        <!-- Order Options -->
-          <div class="order">
-            <h4 class="ordering">Ordering Options</h4>
-            <input class="checkOne" type="checkbox">
-            <span class="accept">Accepts Etsy Gift Cards</span>
-            <br>
-            <input class="checkTwo" type="checkbox">
-            <span class="custom">Customizable</span>
-          </div>
-        <!-- Shipping Location -->
-          <div class="location">
-            <h4 class="shopLoc">Shop Location</h4>
-            <input type="radio">
-            <span class="anywhere">Anywhere</span>
-            <br>
-            <input type="radio">
-            <span class="usa">United States</span>
-            <br>
-            <span class="custloc">Choose a Custom Location</span>
-            <div class="shippyDip">
-              <h4 class="ship">Ship To</h4>
-                <select>
-                  <option>Mozambique</option>
-                  <option>Mexico City</option>
-                  <option>Madrid</option>
-                  <option>Vancouver</option>
-                  <option>Havana</option>
-                  <option>Cape Town</option>
-                  <option>Paris</option>
-                  <option>Milan</option>
-                  <option>Tokyo</option>
-                  <option>Hong Kong</option>
-                  <option>Melbourne</option>
-                  <option>London</option>
-                  <option>Buenos Aires</option>
-                </select>
-            </div>
-          </div>
-        </div>
-      </aside>
+    <div class="show-results">
+      <span class="show">Show Results For:</span>
+      <span class="all-cats"><a href="https://www.etsy.com/search?q=Pokemon">All Categories</a> >"Pokemon" (33.352 Results)</span>
+      <span class="sort">Sort By: Relevancy</span>
     </div>
-    <section>
-      <div class="section">
-        <ul class="imgCard"></ul>
+
+    <aside>
+
+      <div class="categories">
+        <span>All Categories</span>
+          <ul>
+          <li><a href="#">Jewelry</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li><a href='#'>Clothing</a></li>
+          <li><a href='#'>Home & Living</a></li>
+          <li><a href="#">Art & Collectibles</a></li>
+          <li><a href="#">Bags & Purses</a></li>
+          <li><a href="#">Paper & Party Supplies</a></li>
+          <li><a href='#'>Bath & Beauty</a></li>
+          <li><a href='#'>Craft Supplies & Tools</a></li>
+          <li><a href='#'>Books, Movies, & Music</a></li>
+          <li><a href='#'>Toys & Games</a></li>
+          <li><a href='#'>Electronics & Accessories</a></li>
+          <li><a href='#'>Weddings</a></li>
+          <li><a href='#'>Pet Supplies</a></li>
+          <li><a href='#'>Shoes</a></li>
+        </ul>
       </div>
-    </section>
+
+      <span class="refine-search">Refine your search</span>
+
+      <div class="refine-results">
+        <section class="item-type">
+          Item Type
+          <ul>
+            <li><input type="radio" name="items" value=
+            "checked">All Items</li>
+            <li><input type="radio" name="items">Vintage</li>
+            <li><input type="radio" name="items">Handmade</li>
+          </ul>
+        </section>
+        <hr>
+        <section class="price">
+          <span>Price</span>
+          <br>
+          <div class="low-price">
+          $
+          <input type="text" placeholder="Low">
+          </div> 
+          <span>to</span>
+          <div class="high-price">
+          $ 
+          <input type="text" placeholder="High">
+          </div>
+          <button></button>
+        </section>
+        <hr>
+        <section class="color-filter">
+          Filter by Color
+          <ul>
+            <li class="red"></li>
+            <li class="orange"></li>
+            <li class="yellow"></li>
+            <li class="green"></li>
+            <li class="blue"></li>
+            <li class="purple"></li>
+            <li class="black"></li>
+            <li class="white"></li>
+          </ul>
+        </section>
+        <hr>
+        <section class="order-opts">
+          Ordering Options
+          <ul>
+            <li><input type="checkbox">Accepts Etsy Gift Cards</li>
+            <li><input type="checkbox">Customizable</li>
+          </ul>
+        </section>
+        <hr>
+        <section class="location">
+          Shop Location
+          <ul>
+            <li><input type="radio" name="location" value="checked">Anywhere</li>
+            <li><input type="radio" name="location">United States</li>
+            <li><span><a href="#">Choose a Custom Location</a></span></li>
+          </ul>
+        </section>
+        <hr>
+        <section class="ship-to">
+          Ship to
+          <br>
+          <select>
+            <option>Mozambique</option>
+            <option>Mexico City</option>
+            <option>Madrid</option>
+            <option>Vancouver</option>
+            <option>Havana</option>
+            <option>Cape Town</option>
+            <option>Paris</option>
+            <option>Milan</option>
+            <option>Tokyo</option>
+            <option>Hong Kong</option>
+            <option>Melbourne</option>
+            <option>London</option>
+            <option>Buenos Aires</option>
+          </select>
+        </section>
+      </div>
+    </aside>
+
+    <div class="results-area">
+      <script type="text/javascript" id="itemTemplate">
+         <div class="item-display">
+          <a href="<%= url %>"><img src=<%= Images[0].url_170x135 %>></a>
+          <div class="title"><a href="<%= url %>"><%= title %></a></div>
+          <div class="seller"><a href="<%= Shop.url %>"><%= Shop.shop_name %></a></div>
+          <div class="the-price"><span>$</span><%= price %></div>
+        </div>
+      </script>
+    </div>
+
 
   </div>
+
   
+ 
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/underscore/underscore.js"></script>
+  <script src="js/etsy.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

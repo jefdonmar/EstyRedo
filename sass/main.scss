@@ -22,56 +22,56 @@ $borderColor: #E0E5DF;
 // fonts
 $mainFont: Arial,sans-serif;
 
-body {
-  background: $pageColor;
-}
+.container {
+  font-family: $mainFont;
+  background-color: $pageColor;
+  border-bottom: 1px solid $borderColor;
 
-// header styling
+  header{
+    height: 82px;
+    background: white;
 
-header{
-  height: 82px;
-  background: white;
-
-  .leftSide{
-    float: left;
-    margin-bottom: 15px;
-
-    .etsimg{
-    float: left;
-    height: 50px;
-    margin-top: 10px;
-    display: inline-block;
-    }
-
-    .leftSideRight {
+    .leftSide{
       float: left;
-      margin-left: 70px;
-      margin-top: -42px;
+      margin-bottom: 15px;
 
-      .searchInp{
-        border: solid 1px #D0CBC8;
-        border-radius-left: 4px;
-        height: 35px;
-        width: 253px;
-        border-bottom-left-radius: 4px;
-        border-top-left-radius: 4px;
+      .etsimg{
+        float: left;
+        height: 50px;
+        margin-top: 10px;
+        display: inline-block;
       }
 
-      .bro{
-        text-decoration: none;
+      .leftSideRight {
+        float: left;
+        margin-left: 70px;
+        margin-top: -42px;
 
-        .browse{
-          padding: 7px;
-          border: 1px solid $borderColor;
-          border-radius: 4px;
+        .searchInp{
+          border: solid 1px #D0CBC8;
+          border-radius-left: 4px;
+          height: 35px;
+          width: 253px;
+          border-bottom-left-radius: 4px;
+          border-top-left-radius: 4px;
+        }
 
-          .browse:hover{
-            border: 1px solid black;
+        .bro{
+          text-decoration: none;
+
+          .browse{
+            padding: 7px;
+            border: 1px solid $borderColor;
+            border-radius: 4px;
+
+            .browse:hover{
+              border: 1px solid black;
+            }
           }
         }
       }
-    }
-  } 
+    } 
+  }
 
   button{
     margin-left: -4px;
@@ -133,17 +133,11 @@ header{
       float: right;
       margin-right: 5px;
     }
-
   }
 
   .cartPic {
     float: right;
   }
-
-  // .imgetsy {
-  //   margin-top: 10px;
-  // }
-
   .cart{
     height: 20px;
     float: right;
@@ -151,178 +145,175 @@ header{
     margin-right: -22px;
     border-left: 1px solid #eeeeee;
   }
-}
 
-// Nav Styling 
-.nav-menu {
-  border-bottom: 1px solid $borderColor;
-  background-color: white;
+  // Nav Styling 
+  .nav-menu {
+    border-bottom: 1px solid $borderColor;
+    background-color: white;
 
-  nav ul {
-    display: inline-block;
-  }
+    nav ul {
+      display: inline-block;
+    }
 
-  li {
-    list-style: none;
-    display: inline-block;
-    margin-left: 40px;
-    font-size: 12px; 
-    padding: 5px;
+    li {
+      list-style: none;
+      display: inline-block;
+      margin-left: 40px;
+      font-size: 12px; 
+      padding: 5px;
 
-    a {
-      text-decoration: none;
-      font-size: 12px;
-      color: black;
+      a {
+        text-decoration: none;
+        font-size: 12px;
+        color: black;
+      }
     }
   }
-}
 
-//Aside item styling 
+  // Section before Results 
+  .show-results {
+    background-color: $pageColor;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: bold;
 
-h3 {
-  text-align: left;
-  font-family: Arial, sans-serif;
-  font-size: 13px;
-  margin-left: 190px;
-  margin-top: 18px;
-  margin-bottom: -10px;
-}
+    .show {
+      margin-left: 68px;
+    }
+    .all-cats {
+      margin-left: 155px;
 
-.smallBox { 
-  width: 100%;
-  margin: 0 auto;
+      a {
+        text-decoration: none;
+        color: $blueTextColor;
+      }
+    }
+    .sort {
+      float: right;
+      margin-right: 208px;
+    }
+  }
 
+  //Aside Styles 
   aside {
-    width: 25%;
     float: left;
-    margin-left: 188px;
-    margin-top: -42px;
-    margin-right: -186px;
+    background-color: $borderColor;
+    width: 340px;
 
-    h5 {
-      margin-bottom: -5px;
-      margin-left: 15px;
-      margin-top: 15px;
-      font-family: $mainFont;
-    }
+    .categories {
+      border: 1px solid $borderColor;
+      border-radius: 3px;
+      width: 220px;
+      margin: 5px 85px;
+      padding: 5px;
+      background-color: white;
 
-    // All Categories Styling
-
-    .topAside {
-      width: 246px;
-      height: 409px;
-      border: 1px solid #E1E4DF;
-      border-radius: 4px;
-      margin-top: 58px;
-      background:white;
-
-      .list1 {
-        list-style-type: none;
-
-        .listOne {
-          list-style-type: none;
-          padding-bottom: 9px;
-          margin-left: -15px;
-          color: #0094B8;
-          font-size: 12px;
-          font-weight: normal;
-        }
-      }
-      li:hover {
-        text-decoration: underline;
-      }
-    }
-
-    h4 {
-      font-size: 13.5px;
-      margin-top: 30px;
-      margin-bottom: 12px;
-    }
-
-    // Refine your search styling 
-
-    .bottomAside {
-      width: 246px;
-      height: 656px;
-      border: 1px solid #E1E4DF;
-      border-radius: 4px;
-      background: white;
-
-      h6 {
-        margin-top: 15px;
-        margin-left: 20px;
+      span {
+        font-weight: bold;
+        font-size: 14px;
       }
 
-      .radios {
-        display: inline-block;
-        margin-left: 12px;
-        margin-right: 12px;
-        width: 220px;
-        border-bottom: 1px solid #E0E5DF;
-        margin-top: -30px;
+      ul {
+        margin-top: 5px;
       }
 
-      .list2 {
-        list-style-type: none;
+      ul li {
+        list-style: none;
+        padding: 2px;
+        color: $blueTextColor;
+        font-size: 14px;
+        margin-left: -30px;
 
-        .listTwo{
-        line-height: 4px;
+        a {
+          color: $blueTextColor;
+          font-size: 14px;
+          text-decoration: none;
         }
-      }
+      }   
+    }  
+  }
 
-      //Price Styling 
+  //Refine Results Box
+  .refine-search {
+    margin-left: 86px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .refine-results {
+      border: 1px solid $borderColor;
+      border-radius: 3px;
+      width: 220px;
+      margin: 10px 85px;
+      padding: 5px;
+      background-color: white;
+      font-size: 14px;
 
-      .price{
-        padding-bottom: 20px;
-        margin-left: 12px;
-        margin-right: 12px;
-        border-bottom: solid 1px #E0E5DF;
-
-        .low {
-          width: 75px;
-          height: 40px;
-          border-radius: 4px;
-          border-style: none;
-          border: 1px solid #D9D9D9;
-        }
-
-        .high{
-          width: 75px;
-          height: 40px;
-          margin-left: 2px;
-          border-radius: 4px;
-          border-style: none;
-          border: 1px solid #D9D9D9;
-        }
-
-        .titlePrice{
-          text-align: left;
-          font-family: Arial, sans-serif;
-          font-size: 13px;
-          margin-left: 8px;
-          margin-top: 15px;
-          margin-bottom: 12px;
-        }
-
-        .triBox {
-          width: 39px;
-          height: 40px;
-          border: 1px solid #D9D9D9;
-          display: inline-block;
-          margin-bottom: -14px;
-          border-radius: 4px;
-        }
-
-        input[type="text"]:focus {
-          outline: none;
-        }
-      }
-    }
-    // Color Filter Styling
-     .color-filter ul {
+      .item-type ul {
         padding-left: 0;
       }
 
+      .item-type li {
+        list-style: none;
+        color: $blueTextColor;
+      }
+
+      .item-type input {
+        margin-right: 5px;
+      }
+
+      .low-price {
+        display: inline-block;
+        border: 1px solid $borderColor;
+        border-radius: 2px;
+        padding: 2px;
+        width: 50px;
+      }
+
+      .low-price input {
+        width: 27px;
+        border: none;
+        padding: 5px;
+        font-size: 14px;
+      }
+      .high-price {
+        display: inline-block;
+        border: 1px solid $borderColor;
+        border-radius: 3px;
+        padding: 2px;
+        width: 53px;
+      }
+
+      .high-price input {
+        width: 30px;
+        border: none;
+        padding: 5px;
+        font-size: 14px;
+      }
+
+      .price {
+
+        button {
+          background-color: white;
+          border: 1px solid $borderColor;
+          border-radius: 3px;
+          width: 34px;
+          height: 34px;
+          padding: 11px;
+          position: relative;
+        }
+        button::before {
+          content:'';
+          border-style: solid;
+          border-width: 7.5px 0 7.5px 8px;
+          border-color: transparent transparent transparent #555555;
+          position: absolute;
+          top: 9px;
+          left: 13px;
+        }
+      }
+      .color-filter ul {
+        padding-left: 0;
+      }
       .color-filter li {
         width: 22px;
         height: 22px;
@@ -363,14 +354,106 @@ h3 {
         background-color: $filterColorWhite;
       }
   
+      .order-opts ul {
+        padding-left: 0;
+
+        li {
+          list-style: none;
+          color: $blueTextColor;
+
+          input {
+            margin-right: 5px;
+          }
+        }
+      }
+      .location ul {
+        padding-left: 0;
+
+        li {
+          list-style: none;
+          color: $blueTextColor;
+        }
+
+        li span {
+          color: $blueTextColor;
+          padding: 5px;
+          font-size: 14px;
+        }
+
+        li input {
+          margin-right: 5px;
+        }
+
+        li a {
+          text-decoration: none;
+          color: $blueTextColor;
+        }
+      }
+      .ship-to select {
+        margin-bottom: 5px;
+        -webkit-appearance: none;
+        border: 1px solid $borderColor;
+        border-radius: 0;
+        width: 180px;
+        padding: 5px;
+        background-color: white;
+        margin-top: 5px;
+        position: relative;
+      }
+  }
+
+  .results-area {
+    margin-left: 340px;
+
+    .item-display {
+      border: 1px solid $borderColor;
+      border-radius: 3px;
+      width: 225px;
+      height: 225px;
+      display: inline-block;
+      overflow: hidden;
+      font-size: 13px;
+      background-color: white;
+      margin: 5px;
+      position: relative;
+
+      img {
+        width: 225px;
+      }
+
+      .title {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 100%;
+        overflow: hidden;
+        padding: 3px;
+        margin-left: 2px;
+
+        a {
+          text-decoration: none;
+          color: black;
+        }
+      }
+
+      .seller {
+        display: inline-block;
+        margin-left: 5px;
+
+        a {
+          text-decoration: none;
+          color: #AAAAAA;
+        }
+      }
+
+      .the-price {
+        display: inline-block;
+        float: right;
+        color: #7EC34B;
+        margin-right: 5px;
+      }
     }
-  }      
+  }
 }
-
-
-
-
-
 
 
 
